@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.MuiChartsAxis-root .MuiChartsAxis-line{
+  stroke: white !important;
+}
+.MuiChartsGrid-line{
+  stroke: rgba(245, 236, 236, 0.4) !important;
+}
+.MuiChartsLegend-itemBackground{
+  color:white !important;
+}
+.main-wrap{
+  box-shadow: -4.16px 5.72px 35.36px 0 #7339fd80, 0 -2.08px 31.2px 0 #01bde680;
+}
+.scroll-wrap::-webkit-scrollbar {
+  width: 6px; /* Adjust width as desired */
+}
+
+.scroll-wrap::-webkit-scrollbar-track {
+  background: transparent; /* Or a color if you want a track background */
+}
+
+.scroll-wrap::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust color and opacity */
+  border-radius: 5px; /* Optional: Rounded scrollbar */
+}
